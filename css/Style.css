@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Home{
+  color: brown;
+  }
+
+.navbar{
+  background-color: rgb(97, 167, 233);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.bar{
+  display: flex;
+  align-items: center;
+}
+
+.bar li{
+  margin: 0 30px;
+}
+
+header{
+  width: 100vmax;
+  height: 100vmax;
+  background-image: url(../image/main.jpg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header-content{
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+.line{
+  width: 200px;
+  height: 5px;
+  background-color: brown;
+  border-radius: 3px;
+  margin-left: 170px;
+  margin-bottom: 20px;
+}
+.Lern{
+  border-radius: 50px;
+  padding: 5px;
+  background:brown;
+  color: whitesmoke;
+  background-position: center;   
+  text-decoration: none; 
+}
+
+.section{
+  width: 80%;
+  margin: 80px auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 4vmin;
+  color: cornflowerblue;
+}
+
+.row{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ justify-content: space-between;
+
+}
+.row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events .row {
+  margin-top: 50px;
+}
+h4 {
+  font-size: 4vmin;
+  color: cornflowerblue;
+  margin: 20px auto;
+}
+p {
+  color: rgb(104, 105, 108);
+  padding: 0px 40px;
+}
+.events .Lern {
+  margin-top: 30px;
+}
+
+.events .line {
+  margin-left: 650px;
+}
+.col img {
+  width: 500px;
+  height: 400px;
+}
+.col p {
+  text-align: center;
+  justify-content: center;
+
+}
+
+
+
